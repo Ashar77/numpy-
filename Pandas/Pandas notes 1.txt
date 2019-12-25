@@ -1,0 +1,77 @@
+Data Analysis and Handling with Pandas
+
+pandas is based on numpy
+
+Organized and well managed data is a requirement for all steps in Al
+(training,validation ,testing and predicting)
+
+pandas is a multidimensional data handling tool
+
+It is used for scrapping ... using tools like beautiful soup and scrappy
+ 
+In time series the data is time bound i.e it changes with the change in time
+in time series the order of data matters !
+------------------------
+
+the difference b/w numpy array and pandas series is we have associated 
+index with the values
+
+
+-------------------------
+
+obj.values = returns a list containing the values of series
+obj.index --- tells start stop and step (IF NOT GIVEN ANY SPECIFIED INDEXES) else it returns 
+	      list containing indexes and dtype of list/indexes
+
+
+pd.Series(values,index,name) 
+
+values can be string or integer or any other datatype simultaneously
+
+it is better to provide only a single type of dtype i.e (integer) to values
+so that we can do analysis and put filters
+#(sw[sw>100])
+
+
+if the number of indexes is greater than the number of values:
+	if we are manually making the Series or using Python List or numpy array :
+		error
+	if we are use dictionary:
+		extra index will be appointed Nan  ----> only in case of dictionary.
+
+
+							
+Pandas ---> Library
+
+Series is a class in Pandas Library
+
+
+sales = pd.Series(---)
+
+sales is an object of Series class of Pandas file    ---> file--library
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

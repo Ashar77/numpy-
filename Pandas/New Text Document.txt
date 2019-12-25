@@ -1,0 +1,8 @@
+Data Analysis and Handling with Pandas
+
+pandas is based on numpy
+
+Organized and well managed data is a requirement for all steps in Al
+(training,validation ,testing and predicting)
+
+pandas is a multidimensional data handling tool
